@@ -1,11 +1,3 @@
-.day {
-	color: blue;
-	text-align: center;
-	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
-	padding: 2%;
-	overflow: scroll;
-}
-
 body {
 	width: 100%;
 	height: 100%;
@@ -58,7 +50,7 @@ a {
 	border-radius: 25px;
 	border: 5px solid blue;
 	padding: 5px;
-	attachment: fixed;
+	background-attachment: fixed;
 }
 
 .button img:hover {
@@ -777,6 +769,7 @@ div.submitwords{
 		position: fixed;
 		top:0;
 		left:0;
+		width:100%;
 	}
 
 	.nav li a, .nav_submit li a, .nav_ttla li a {
